@@ -99,7 +99,7 @@ df_department <- df1 %>%
 
 ```{r merge-data, warning=FALSE} 
 ## Now, combine the two data frames
-df_total <- function_name()
+df_total <- union_all(df_retail, df_department)
 ```
 
 ```{r plot, warning=FALSE, fig.width=10} 
